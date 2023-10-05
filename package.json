@@ -1,0 +1,14 @@
+{
+  "name": "merchantuser-lambda",
+  "version": "2.0.0",
+  "description": "Lambda Functions for Merchant User Managemetn",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "events": "^3.3.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "point-in-polygon": "^1.1.0"
+  }
+}

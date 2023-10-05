@@ -1,0 +1,5 @@
+There are several ways to check if a point lies inside or outside a polygon in JavaScript. One common method is the "Ray Casting Method," which involves drawing a ray from the point in question to a point outside of the polygon, and counting the number of times the ray intersects with the edges of the polygon. If the number of intersections is odd, the point is inside the polygon, and if the number is even, the point is outside the polygon. Here is an example implementation of the Ray Casting Method in JavaScript:
+
+
+Another common method for determining if a point lies inside or outside a polygon is the "Winding Number Method." This method involves counting the number of times the polygon winds around the point in question, and determining the point's location based on whether the winding number is non-zero or zero
+
